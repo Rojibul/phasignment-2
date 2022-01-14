@@ -67,4 +67,37 @@ body a{
 }
 
 /*  =========section three=========== */
-
+.logos{
+    padding: 3px 220px;
+    border-bottom: 1px solid slategray;
+}
+.logos img{
+    padding: 10px 10px;   
+}
+/*main body*/
+.body-part{
+    padding: 25px 120px ;
+    margin-top: 25px;
+}
+.products-with-photo{
+    margin-top: 75px;
+}
+.product-photo{
+    border: 1px solid lightslategray;
+    height: 476px;
+    width: 329px;
+    padding: 20px;
+}
+.main-body h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-body img{
+    height: 300px;
+    width: 256px;
+}
+.stars i{
+   color: #FB8200;
+}
