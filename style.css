@@ -12,7 +12,10 @@ body a{
     color: white;
     border-radius: 15px;
 }
-
+body a:hover{
+    transform: scale(1.3);
+    background-image: radial-gradient(#33c297, rgb(196, 174, 53));
+}
 /*----------project one-------------*/
 .project-head{
     display: flex;
@@ -66,6 +69,7 @@ body a{
     margin-left: 150px;
 }
 
+
 /*  =========section three=========== */
 .logos{
     padding: 3px 220px;
@@ -84,17 +88,24 @@ body a{
     padding: 15px;
 }
 .products{
+    margin-top: 55px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 55px;
+    margin-bottom: 75px;
+    
 }
 .product-photo{
     border: 1px solid lightslategray;
     border-radius: 15px;
-    box-shadow: 5px 5px 40px lightslategray;
+    box-shadow: 0px 0px 40px lightslategray;
     height: 500px;
     width: 320px;
     padding: 8px;
+    
+}
+.product-photo:hover{
+    transform:scale(1.2) ;
 }
 .product-info{
     margin-left: 10px;
@@ -115,4 +126,41 @@ body a{
 }
 .information{
     padding: 10px;
+}
+.main-see-more{
+    background-color: white;
+    color:#E02C6D;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    margin-right: 15px;
+}
+main a:hover{
+    transform: scale(1.2);
+}
+.img:hover{
+    transform: scale(1.2);
+}
+/* last part*/
+.course{
+    margin:85px;
+    display: flex;
+    
+}
+.course span{
+    color: goldenrod;
+    font-size: 50px;
+}
+.courses-img img{
+    height: 250px;
+    margin-right: 100px;
+}
+.courses-img:hover img{
+    transform: scale(1.3);
+}
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
 }
