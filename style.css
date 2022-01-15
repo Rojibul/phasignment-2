@@ -80,24 +80,39 @@ body a{
     margin-top: 25px;
 }
 .products-with-photo{
-    margin-top: 75px;
+    margin-top: 55px;
+    padding: 15px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px;
 }
 .product-photo{
     border: 1px solid lightslategray;
-    height: 476px;
-    width: 329px;
-    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px lightslategray;
+    height: 500px;
+    width: 320px;
+    padding: 8px;
+}
+.product-info{
+    margin-left: 10px;
 }
 .main-body h1{
     text-align: center;
     font-weight: bolder;
     font-size: 28px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;  
 }
 .main-body img{
-    height: 300px;
-    width: 256px;
+    height: 276px;
+    width: 300px;
+    padding: 10px;
 }
 .stars i{
    color: #FB8200;
+}
+.information{
+    padding: 10px;
 }
